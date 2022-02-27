@@ -5,6 +5,7 @@
     { "src": "app.js","use": "@vercel/node" },
     { "src": "lib/**","use": "@vercel/node" },
     { "src": "public/**","use": "@vercel/static" },
+    { "src": "public/assets/*.js","use": "@vercel/static" },
     { "src": "*.json","use": "@vercel/static" }
   ],
   "routes": [
