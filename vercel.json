@@ -1,14 +1,14 @@
 {
-  "version":2
-  "regions": ["hnd1"],
+  "version": 2,
   "builds": [
-    {
-      "src": "app.js",
-      "use": "@vercel/node"
-    }
+    { "src": "server.js","use": "@vercel/node" },
+    { "src": "lib/**","use": "@vercel/static" },
+    { "src": "public/**","use": "@vercel/static" },
+    { "src": "*.json","use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/", "dest": "index.html" }
-    { "src": "/(.*)", "dest": "/$1" }
+    { "src": "/","dest": "/public/index.html" },
+    { "src": "/assets/(.*)","dest": "/public/assets/$1" },
+    { "src": "/.*","dest": "/server.js" }
   ]
 }
