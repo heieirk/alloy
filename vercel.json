@@ -1,7 +1,7 @@
 {
   "version": 2,
   "builds": [
-    { "src": "server.js","use": "@vercel/node" },
+    { "src": "app.js","use": "@vercel/node" },
     { "src": "lib/**","use": "@vercel/static" },
     { "src": "public/**","use": "@vercel/static" },
     { "src": "*.json","use": "@vercel/static" }
@@ -9,6 +9,6 @@
   "routes": [
     { "src": "/","dest": "/public/index.html" },
     { "src": "/assets/(.*)","dest": "/public/assets/$1" },
-    { "src": "/.*","dest": "/server.js" }
+    { "src": "/.*","dest": "/app.js" }
   ]
 }
