@@ -3,7 +3,7 @@
   "regions": ["hnd1"],
   "builds": [
     { "src": "app.js","use": "@vercel/node" },
-    { "src": "lib/**","use": "@vercel/static" },
+    { "src": "lib/**","use": "@vercel/node" },
     { "src": "public/**","use": "@vercel/static" },
     { "src": "*.json","use": "@vercel/static" }
   ],
