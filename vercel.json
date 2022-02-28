@@ -2,7 +2,7 @@
   "version": 2,
   "regions": ["hnd1"],
   "builds": [
-    { "src": "app.js","use": "@vercel/node" },
+    { "src": "server.js","use": "@vercel/node" },
     { "src": "public/assets/*.js","use": "@vercel/node" }
     { "src": "*.html","use": "@vercel/static" }
   ],
