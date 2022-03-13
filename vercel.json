@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "regions": ["IAD1"],
+  "regions": ["iad1"],
   "builds": [
     { "src": "server.js","use": "@vercel/node" },
     { "src": "public/assets/*.js","use": "@vercel/node" }
