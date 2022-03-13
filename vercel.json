@@ -3,7 +3,7 @@
   "regions": ["iad1"],
   "builds": [
     { "src": "server.js","use": "@vercel/node" },
-    { "src": "public/assets/*.js","use": "@vercel/node" }
+    { "src": "public/assets/*.js","use": "@vercel/node" },
     { "src": "*.html","use": "@vercel/static" }
   ],
   "routes": [
