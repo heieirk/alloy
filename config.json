@@ -1,7 +1,7 @@
 {
     "port": "8080",
-    "ssl": false,
+    "ssl": true,
     "prefix": "/web/",
-    "localAddresses": ["1.1.1.1"],
+    "localAddresses": ["0.0.0.0"],
     "blockedHostnames": []
 }
