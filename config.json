@@ -3,5 +3,5 @@
     "ssl": false,
     "prefix": "/web/",
     "localAddresses": ["0.0.0.0"],
-    "blockedHostnames": ["a.adtng.com"]
+    "blockedHostnames": ["a.adtng.com","a.realsrv.com"]
 }
