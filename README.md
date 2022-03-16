@@ -2,7 +2,7 @@
 A web proxy for use in combating web filters.
 ## Deploy on Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/herokuhabataku/alloy/tree/master)
-## Deploy on vercel(only SSL)
+## Deploy on Vercel(only SSL)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fherokuhabataku%2Falloy)
 ## Running locally
 
