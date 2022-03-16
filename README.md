@@ -1,11 +1,9 @@
-# Deprecated!
-This project is deprecated! Use our other proxy [Corrosion](https://github.com/titaniumnetwork-dev/corrosion) instead!
-
 # Alloy Proxy
 A web proxy for use in combating web filters.
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/titaniumnetwork-dev/alloy/tree/master)
-
+## Deploy on Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/herokuhabataku/alloy/tree/master)
+## Deploy on vercel(only SSL)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fherokuhabataku%2Falloy)
 ## Running locally
 
 ```sh
@@ -13,7 +11,6 @@ git clone https://github.com/titaniumnetwork-dev/alloyproxy.git
 cd alloyproxy
 node server.js
 ```
-
 
 ## Options in config.json
 ```json
