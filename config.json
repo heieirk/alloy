@@ -3,5 +3,5 @@
     "ssl": false,
     "prefix": "/web/",
     "localAddresses": ["0.0.0.0"],
-    "blockedHostnames": ["isgcblock.iss.netstar-inc.com"]
+    "blockedHostnames": ["gp-2aia.iss.netstar-inc.com"]
 }
